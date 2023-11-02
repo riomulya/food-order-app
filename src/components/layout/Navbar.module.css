@@ -1,0 +1,24 @@
+.navBar {
+  @apply bg-slate-500 text-teal-300 w-screen h-16 relative flex justify-between items-center;
+}
+
+.navBar p,
+.navBar Button {
+  @apply mx-20 font-bold;
+}
+
+/* Navbar.module.css */
+/* Navbar.module.css */
+.bump {
+  animation: bumpAnimation 0.3s ease;
+}
+
+@keyframes bumpAnimation {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,12 @@
+.invalid {
+  @apply bg-red-700 text-white p-2 rounded-2xl opacity-90;
+}
+
+.primary {
+  @apply bg-sky-200 text-black p-2 rounded-2xl opacity-90 outline outline-gray-600;
+}
+
+.primary:hover,
+.invalid:hover {
+  @apply scale-110 font-medium opacity-100 transition delay-150 duration-300 ease-in-out;
+}
